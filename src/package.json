@@ -1,0 +1,19 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "API Rest with Node and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isa Giongo",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.8.0",
+    "fastify-swagger": "^2.4.0",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2"
+  }
+}
